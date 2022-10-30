@@ -72,7 +72,6 @@ object AndroidX : Libraries {
         const val coreKtxTest = "1.3.0"
         const val testExt = "1.1.2"
         const val testRules = "1.3.0"
-        const val log4jCore = "2.8.2"
     }
 
     const val coreKtx = "androidx.core:core-ktx:${Versions.androidx_core}"
@@ -93,7 +92,6 @@ object AndroidX : Libraries {
     const val testExt = "androidx.test.ext:junit-ktx:${Versions.testExt}"
     const val testRules = "androidx.test:rules:${Versions.testRules}"
     const val fragmentTesting = "androidx.fragment:fragment-testing:${Versions.fragment}"
-    const val log4jCore = "org.apache.logging.log4j:log4j-core:${Versions.log4jCore}"
 
     override val components: List<String>
         get() = listOf(coreKtx, viewModel, appCompat, lifeCycleCommon, liveData, preferences)
@@ -120,6 +118,7 @@ object Network : Libraries {
         const val okhttp = "4.9.0"
         const val chuck = "1.1.0"
         const val gson = "2.8.6"
+        const val log4jCore = "2.8.2"
     }
 
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
@@ -129,7 +128,7 @@ object Network : Libraries {
     const val okhttp = "com.squareup.okhttp3:okhttp:${Versions.okhttp}"
     const val okhttpInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp}"
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
-
+    const val log4jCore = "org.apache.logging.log4j:log4j-core:${Versions.log4jCore}"
 
     override val components: List<String>
         get() = listOf(retrofit, okhttp, okhttpInterceptor, gson)

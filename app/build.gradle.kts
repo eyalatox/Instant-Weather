@@ -191,7 +191,7 @@ dependencies {
 
     // OKHttp Logging Interceptor
     implementation(Network.okhttpInterceptor)
-    implementation(AndroidX.log4jCore)
+    implementation(Network.log4jCore)
 
     // Chuck
     debugImplementation(Network.chuck)
