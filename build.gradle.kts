@@ -6,6 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.2.0.RELEASE")
         classpath(Plugins.kotlinGradlePlugin)
         classpath(Plugins.gradleAndroid)
         classpath(Plugins.safeArgs)
