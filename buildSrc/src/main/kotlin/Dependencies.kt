@@ -217,7 +217,7 @@ object Utils : Libraries {
 
 object UnitTest : Libraries {
     private object Versions {
-        const val junit = "4.13.1"
+        const val junit = "4.12"
         const val mockito = "4.0.0"
         const val hamcrest = "1.3"
         const val roboelectric = "4.6"
