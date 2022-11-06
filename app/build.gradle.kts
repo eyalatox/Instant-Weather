@@ -4,6 +4,7 @@ import java.util.Properties
 
 plugins {
     id("com.android.application")
+    id("com.diffplug.spotless") version Plugins.spotless
     id("kotlin-android")
     id("kotlin-parcelize")
     id("kotlin-kapt")

@@ -27,6 +27,7 @@ object Plugins {
     object Version {
         const val gradleAndroidVersion = "7.0.2"
         const val googleServices = "4.3.5"
+        const val spotless = "6.11.0"
     }
 
     const val gradleAndroid = "com.android.tools.build:gradle:${Version.gradleAndroidVersion}"
